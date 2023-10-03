@@ -6,7 +6,6 @@ function skillsMember() {
   skills.addEventListener("click", () => {
     skillsMember.classList.add("active");
   });
-
   skillsMemberClose.addEventListener("click", () => {
     skillsMember.classList.remove("active");
   });
